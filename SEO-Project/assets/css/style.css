@@ -210,7 +210,7 @@ p:hover {
     left: 100px;
     word-wrap: break-word;
     overflow: hidden;
-    max-width: 600px;
+    max-width: 650px;
     border-left:1em solid transparent;
     border-right:1em solid transparent;
     text-overflow: ellipsis;

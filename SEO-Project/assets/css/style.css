@@ -255,7 +255,39 @@ h3:hover {
     max-width: 280px;
 }
 
+/*when you hover cursor over tabs at top of page, the words will appear in black*/
 a:hover {
-    color: yellow;
+    color: black;
 
+}
+
+/*when pressing tab, goes through all major parts of page.  Allows for ease if no mouse available.*/
+a.skip-main {
+    left:-999px;
+    position:absolute;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+    z-index:-999;
+    color:black;
+}
+
+/*"Skip to content" banner at top of page when tabbing through to appear*/
+a.skip-main:focus, a.skip-main:active {
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    left: 100px;
+    top: 30px;
+    width: 15%;
+    height: auto;
+    overflow:auto;
+    margin: 10px 35%;
+    padding:5px;
+    border-radius: 20px;
+    border:4px solid yellow;
+    text-align:center;
+    font-size:1.2em;
+    z-index:999;
 }

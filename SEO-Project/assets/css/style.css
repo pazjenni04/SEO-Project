@@ -196,7 +196,7 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+.footer h4 {
     font-size: 20px;
 }
 
@@ -270,14 +270,14 @@ a.skip-main {
     height:1px;
     overflow:hidden;
     z-index:-999;
-    color:black;
+    color:yellow;
 }
 
 /*"Skip to content" banner at top of page when tabbing through to appear*/
 a.skip-main:focus, a.skip-main:active {
-    color: white;
+    color: black;
     font-weight: bold;
-    background-color: black;
+    background-color:yellow;
     left: 100px;
     top: 30px;
     width: 15%;
@@ -290,4 +290,13 @@ a.skip-main:focus, a.skip-main:active {
     text-align:center;
     font-size:1.2em;
     z-index:999;
+}
+
+/*updated id footer so won't mimic other CSS rules*/
+#copyRights {
+    position: relative;
+    left: 765px;
+    width: 50%;
+    max-width: 300px;
+
 }

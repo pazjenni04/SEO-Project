@@ -255,11 +255,6 @@ h3:hover {
     max-width: 280px;
 }
 
-/*when you hover cursor over tabs at top of page, the words will appear in black*/
-a:hover {
-    color: black;
-
-}
 
 /*when pressing tab, goes through all major parts of page.  Allows for ease if no mouse available.*/
 a.skip-main {

@@ -300,3 +300,7 @@ a.skip-main:focus, a.skip-main:active {
     max-width: 300px;
 
 }
+
+li a:hover {
+    color: yellow;
+}
